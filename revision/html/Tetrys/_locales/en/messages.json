@@ -1,0 +1,26 @@
+{
+   "description": {
+      "message": "A fun block game that plays in a popup"
+   },
+   "msg_buy_me_a_coffee": {
+      "message": "Buy me a coffee"
+   },
+   "msg_faster": {
+      "message": "Faster"
+   },
+   "msg_game_over": {
+      "message": "You hit the limit!"
+   },
+   "msg_high_score": {
+      "message": "High score: "
+   },
+   "msg_level": {
+      "message": "Level $1"
+   },
+   "msg_restart": {
+      "message": "Press any key to restart"
+   },
+   "msg_want_to_support": {
+      "message": "Want to support me?"
+   }
+}

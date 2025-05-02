@@ -1,0 +1,26 @@
+{
+   "description": {
+      "message": "Забавная игра Тетрис, которая запускается во всплывающем окне"
+   },
+   "msg_buy_me_a_coffee": {
+      "message": "Купите мне кофе"
+   },
+   "msg_faster": {
+      "message": "Быстрее"
+   },
+   "msg_game_over": {
+      "message": "Вы достигли лимита!"
+   },
+   "msg_high_score": {
+      "message": "Рекорд: "
+   },
+   "msg_level": {
+      "message": "Уровень $1"
+   },
+   "msg_restart": {
+      "message": "Нажмите любую клавишу для перезапуска"
+   },
+   "msg_want_to_support": {
+      "message": "Хотите меня поддержать?"
+   }
+}

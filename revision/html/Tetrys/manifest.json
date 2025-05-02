@@ -1,0 +1,31 @@
+{
+   "action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "index.html"
+   },
+   "background": {
+      "service_worker": "bg.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "A fun tetrys block game that plays in a popup",
+   "differential_fingerprint": "1.a91dc2b33b5b9ea89d4ff6079e105f9657a614a5e8290377f0739114e4f45d0d",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "images/icon.png",
+      "16": "images/icon.png",
+      "48": "images/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvil37zv64/RnD7I4CyH1dlTTLEI+j6MpC+CPVR2lrZUELom6cdRLktYISRwfYEpSV59TMkHDiGC3iuWPU1ms8VO89pv9i1WTm31D7r7Fm+cyDr2WWIjNsP7TKWI/kyCaNtJk2E5k7yWCZcthlFitz0gJw0XZCFLyUDX81LN4djqM/s72dqzFrn2VzyJ33fI40EYeKarsR3pH4qU38gUybHX9JJ/DGg730eiJOWFOzdTPDlzkkOQ6iJs51B20bGt3OfIyxFIKUwnWjvcxwx4jWtlNqsl33+Bz4wKqjddxuVIRZkfikg1dTp+FJQMMucgFL/+xhpuG4eXqq+RanLWB6wIDAQAB",
+   "manifest_version": 3,
+   "name": "Tetrys",
+   "permissions": [ "storage" ],
+   "short_name": "Tetrys",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "20.12.2025"
+}
